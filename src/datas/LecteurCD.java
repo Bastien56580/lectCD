@@ -166,7 +166,12 @@ public class LecteurCD {
      * @param leFich le nom du fichier texte à lire
      */
     public void chargerUnCD(String leFich) {
-
+        if (!this.estCharge) {
+            this.leCdCourant = new CD(leFich);
+            this.estCharge = true;
+        } else {
+            System.out.println("Le lecteur est déjà chargé");
+        }
     }
 
     /**

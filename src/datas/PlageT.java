@@ -2,7 +2,7 @@ package datas;
 
 public class PlageT {
     public static void main(String[] args) {
-        //Test constrcteur
+        //Test constructeur
         System.out.println("Test du constructeur");
         testConstruct1();
 
