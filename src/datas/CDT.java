@@ -13,7 +13,7 @@ public class CDT {
     public static void testConstruct() {
         System.out.println("Test cas normal");
         CD cd = new CD("Franz Ferdinand ", "CyberPunk 2077 OST");
-        if ((cd.getLInterpreteCD() == "Franz Ferdinand") && (cd.getLeTitreCD() == "CyberPunk 2077 OST")) {
+        if ((cd.getInterpreteCD() == "Franz Ferdinand") && (cd.getLeTitreCD() == "CyberPunk 2077 OST")) {
             System.out.println("Test ok");
         } else {
             System.out.println("ECHEC");

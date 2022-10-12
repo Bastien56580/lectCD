@@ -8,8 +8,6 @@ import java.util.ArrayList;
 /**
  * Un CD est un ensemble de plages musicales. Le CD est caractérisé par un titre, un interprète (ou des interprètes s'il s'agit d'un groupe).
  * Lors de sa création, le CD est vierge. En le gravant, il sera rempli progressivement de morceaux (plages).
- *
- *
  */
 public class CD {
     /**
@@ -71,6 +69,7 @@ public class CD {
      * @return le nombre total de plages
      */
     public int getNbrePlages() {
+
         return this.lesPlages.size();
     }
 
@@ -80,6 +79,7 @@ public class CD {
      * @return le titre du CD
      */
     public String getLeTitreCD() {
+
         return this.leTitreCD;
     }
 
@@ -89,6 +89,7 @@ public class CD {
      * @return le(les) interprètes
      */
     public String getlInterpreteCD() {
+
         return this.lInterpreteCD;
     }
 
@@ -117,7 +118,7 @@ public class CD {
      */
     public Plage getUnePlage(int index) {
         //TODO Check si index inférieur ou égal à mon nombre de plage
-        return this.lesPlages.get(index-1);
+        return this.lesPlages.get(index - 1);
     }
 
     /**
@@ -125,13 +126,13 @@ public class CD {
      * ajoutées "à la main" au CD
      */
     private void graverCD() {
-        Plage p1 = new Plage(new Duree(3,20,54),"Sleeping on a chair","Yasumu");
+        Plage p1 = new Plage(new Duree(3, 20, 54), "Sleeping on a chair", "Yasumu");
         this.lesPlages.add(p1);
-        Plage p2 = new Plage(new Duree(151),"passing by", "Epektase");
+        Plage p2 = new Plage(new Duree(151), "passing by", "Epektase");
         this.lesPlages.add(p2);
-        Plage p3 = new Plage(new Duree(0,23,33),"Cracker Island", "Gorillaz");
+        Plage p3 = new Plage(new Duree(0, 23, 33), "Cracker Island", "Gorillaz");
         this.lesPlages.add(p3);
-        Plage p4 = new Plage(new Duree(313000),"Slide x2", "Sopico");
+        Plage p4 = new Plage(new Duree(313000), "Slide x2", "Sopico");
         this.lesPlages.add(p4);
 
     }

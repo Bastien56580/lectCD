@@ -49,6 +49,7 @@ public class Duree {
      * @param autreDuree la durée à recopier.
      */
     public Duree(Duree autreDuree) {
+
         this.leTemps = autreDuree.getLeTemps();
     }
 
@@ -59,6 +60,7 @@ public class Duree {
      * @param autreDuree durée à rajouter.
      */
     public void ajoute(Duree autreDuree) {
+
         this.leTemps += autreDuree.getLeTemps();
     }
 
