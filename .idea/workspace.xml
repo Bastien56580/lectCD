@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad34e3b5-a9d3-4852-8bcc-53460b80915a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectCD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/CDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/Duree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/DureeT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/LecteurCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/LecteurCDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/Plage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datas/PlageT.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad34e3b5-a9d3-4852-8bcc-53460b80915a" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +30,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,8 +42,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665557768013</updated>
-      <workItem from="1665557769800" duration="386000" />
+      <workItem from="1665557769800" duration="859000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1665558461158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665558461159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +67,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
