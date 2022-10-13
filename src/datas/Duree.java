@@ -3,7 +3,7 @@ package datas;
 /**
  * Cette classe définit une durée temporelle. Elle permet la manipulation d'intervalles de temps. Une durée s'exprime en millisecondes.
  *
- *
+ * @author Lesueur Bastien
  */
 public class Duree {
 
@@ -34,7 +34,7 @@ public class Duree {
      * @param secondes nbre de secondes.
      */
     public Duree(int heures, int minutes, int secondes) {
-        if (heures > 0 && minutes > 0 && secondes > 0) {
+        if (heures >= 0 && minutes >= 0 && secondes >= 0) {
             long conversion = heures * 3600000 + minutes * 60000 + secondes * 1000;
             this.leTemps = conversion;
         } else {
@@ -128,10 +128,10 @@ public class Duree {
      * @param mode décide de la forme données à la chaîne de caractère.
      *             La forme de la chaine de caractères dépend du "mode" (caractère passé en paramètre) choisi :
      *             <ul>
-     *             <li>si mode == 'J' -> chaîne de caractère de la forme "JJJ jours HH h".</li>
-     *             <li>si mode == 'H' -> chaîne de caractère de la forme "HHH:MM:SS".</li>
-     *             <li>si mode == 'S' -> chaîne de caractère de la forme "SSS.MMM sec".</li>
-     *             <li>si mode == 'M' -> chaîne de caractère de la forme "MMMMMM millisec".</li>
+     *             <li>si mode == 'J' -&gt; chaîne de caractère de la forme "JJJ jours HH h".</li>
+     *             <li>si mode == 'H' -&gt; chaîne de caractère de la forme "HHH:MM:SS".</li>
+     *             <li>si mode == 'S' -&gt; chaîne de caractère de la forme "SSS.MMM sec".</li>
+     *             <li>si mode == 'M' -&gt; chaîne de caractère de la forme "MMMMMM millisec".</li>
      *             </ul>
      * @return la durée sous la forme d'une chaîne de caractères.
      * La méthode utilise la méthode privée enJHMS() pour extraire dans un tableau d'entiers séparement le nombre de jours,

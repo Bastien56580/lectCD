@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad34e3b5-a9d3-4852-8bcc-53460b80915a" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/control/MyMouseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ihm/FrameLectCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datas/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datas/CDT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/CDT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datas/Duree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/Duree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datas/DureeT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/DureeT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datas/LecteurCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/LecteurCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datas/Plage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/Plage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datas/PlageT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/PlageT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +46,26 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="FrameLectCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ihm.FrameLectCD" />
+      <module name="lectCD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ihm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FrameLectCD" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +76,7 @@
       <updated>1665557768013</updated>
       <workItem from="1665557769800" duration="1428000" />
       <workItem from="1665562531949" duration="1153000" />
+      <workItem from="1665641464032" duration="21876000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1665558461158</created>
@@ -77,5 +105,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

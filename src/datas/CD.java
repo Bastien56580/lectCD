@@ -8,6 +8,8 @@ import java.util.ArrayList;
 /**
  * Un CD est un ensemble de plages musicales. Le CD est caractérisé par un titre, un interprète (ou des interprètes s'il s'agit d'un groupe).
  * Lors de sa création, le CD est vierge. En le gravant, il sera rempli progressivement de morceaux (plages).
+ * @author Lesueur Bastien
+ *
  */
 public class CD {
     /**
@@ -101,7 +103,6 @@ public class CD {
     public Duree getDureeTotale() {
         Duree dureeTotale = new Duree(0);
         if (!this.lesPlages.isEmpty()) {
-
             for (Plage plage : this.lesPlages) {
                 dureeTotale.ajoute(plage.getLaDuree());
             }
@@ -117,7 +118,6 @@ public class CD {
      * @return la plage qui se trouve à l'emplacement (index-1) dans le tableau des plages
      */
     public Plage getUnePlage(int index) {
-        //TODO Check si index inférieur ou égal à mon nombre de plage
         return this.lesPlages.get(index - 1);
     }
 
@@ -142,6 +142,7 @@ public class CD {
      * informations sont lues à partir d'un fichier texte
      *
      * @param leFich le nom du fichier du texte à lire
+     * @author Lesueur Bastien
      */
     private void graverCD(String leFich) {
         String tampon;
