@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad34e3b5-a9d3-4852-8bcc-53460b80915a" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/control/MyMouseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ihm/FrameLectCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datas/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datas/CDT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/CDT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datas/Duree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/Duree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datas/DureeT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/DureeT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datas/LecteurCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/LecteurCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datas/Plage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/Plage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datas/PlageT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/PlageT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/control/MyMouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/MyMouseListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +67,7 @@
       <updated>1665557768013</updated>
       <workItem from="1665557769800" duration="1428000" />
       <workItem from="1665562531949" duration="1153000" />
-      <workItem from="1665641464032" duration="21876000" />
+      <workItem from="1665641464032" duration="24240000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1665558461158</created>
